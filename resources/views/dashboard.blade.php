@@ -1,19 +1,30 @@
         <x-sidebar />
-        <!-- Page Content  -->
-        <div id="content" class="p-4 p-md-5">
-
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-
-                    <button type="button" id="sidebarCollapse" class="btn btn-primary">
-                        <i class="fa fa-bars"></i>
-                        <span class="sr-only">Toggle Menu</span>
-                    </button>
-
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card text-center mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Castrar Aluno</h5>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
                 </div>
-            </nav>
-
-            <h2 class="mb-4">Aqui vou fazer bastante coisas</h2>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center mb-3">
+                    <div class="card-body">
+                        <i class="fa-solid fa-users fa-lg" style="color: #005eff;"></i>
+                        <h5 class="card-title">Gerenciar Aluno</h5>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Lançamento de notas.</h5>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-    <x-imports/>
+        </div>
+        <x-imports />
